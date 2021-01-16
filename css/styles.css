@@ -171,7 +171,7 @@ h3 {
     .about-me {
         max-width: 1000px;
         display: grid;
-        grid-template-columns: 1fr 200px;
+        grid-template-columns: 1fr 250px;
         grid-template-areas: "title img" "subtitle img" "text img";
         column-gap: 2em;
     }
@@ -222,6 +222,7 @@ h3 {
     color: var(--clr-accent);
     position: relative;
     text-align: center;
+    font-weight: var(--fw-bold);
 }
 
 .work-title::after {
@@ -352,6 +353,7 @@ h3 {
 }
 
 .social-link {
+    color:  var(--clr-accent);
     padding: 0.5em;
 }
 header {
@@ -472,4 +474,15 @@ html {
 
 .about-title {
     font-weight: var(--fw-bold);
+}
+
+.about-links {
+    text-decoration: none;
+    color: var(--clr-accent);
+}
+
+.about-links:hover {
+    color: var(--clr-accent);
+    opacity: 0.7;
+    text-decoration: underline;
 }
