@@ -47,7 +47,7 @@
     <!-- About Me -->
     <div class="wrap">
         <section class="about-me" id="about">
-            <h2 class="section-title about-title">Who I am</h2>
+            <h2 class="section-title about-title">About Me</h2>
             <p class="section-subtitle about-subtitle">
                 Based out of Toronto, ON
             </p>
@@ -72,7 +72,7 @@
     </div>
 
     <!-- Work Experience -->
-    <section class="work" id="work">
+    <section class="work" id="work" style="height: 700px;">
         <h2 class="section-title work-title">Work Experience</h2>
 
         <div class="container">
@@ -83,8 +83,8 @@
                             <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                             <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
                         </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
+                        <div class="carousel-inner" style="height: 400px;">
+                            <div class="carousel-item">
                                 <div class="card d-block w-100 text-dark mb-3" style="width: 18rem;">
                                     <div class="card-body">
                                         <h5 class="card-title mb-3">CheaprEats</h5>
@@ -96,14 +96,8 @@
                                             </div>
                                         </div>
                                         <ul class="card-text">
-                                            <li class="list-item mb-2">Refactored the codebase which significantly
-                                                improved the productivity of senior engineers who were easily able to
-                                                navigate the improved codebase and ship features
-                                                considerably faster</li>
-                                            <li class="list-item mb-2">Worked alongside a senior mobile engineer to
-                                                create
-                                                a Menu Item component and a GPS component which points to the nearest
-                                                restaurants using React</li>
+                                            <li class="list-item mb-2">Used A/B testingto implement and deploy additional features in the vendor terminal application</li>
+                                            <li class="list-item mb-2">Designed and implemented offline functionality into vendor terminal website using React and GraphQL</li>
                                             <li class="list-item mb-2">Prepared clear documentation for the codebase and
                                                 explained the architecture improvements I made to the codebase to
                                                 stakeholders in a professional manner on Confluence</li>
@@ -116,27 +110,24 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item active">
                                 <div class="card d-block w-100 text-dark mb-3" style="width: 18rem;">
                                     <div class="card-body">
-                                        <h5 class="card-title mb-3">City of Toronto</h5>
+                                        <h5 class="card-title mb-3">Exponet Canada Inc.</h5>
                                         <div class="row">
-                                            <h4 class="card-subtitle mb-3 text-muted col-6">Lifeguard</h4>
+                                            <h4 class="card-subtitle mb-3 text-muted col-6">Software Developer</h4>
                                             <div class="col-6 date">
-                                                <i>May 2019 - Aug 2019</i>
+                                                <i>May 2021 - Aug 2021</i>
                                             </div>
                                         </div>
                                         <ul class="card-text">
-                                            <li class="list-item mb-2">Maintained strong proficiency in CPR, and First
-                                                Aid rescue techniques to provide optimal support to individuals in
-                                                distress
+                                            <li class="list-item mb-2">
+                                                Developed a cross-platform e-commerce mobile application for IOS and Android using Flutter and Dart
                                             </li>
-                                            <li class="list-item mb-2">Completed routine safety training and instructed
-                                                all patrons to follow safety rules</li>
-                                            <li class="list-item mb-2">Cleaned, filled and drained pool in timely manner
-                                                to maintain safe water quality for children at all times</li>
-                                            <li class="list-item mb-2">Received positive responses for demonstrating
-                                                discipline and punctuality</li>
+                                            <li class="list-item mb-2">Architectured a multi-step scanning feature on the app used to ensure the product is packaged and shipped correctly,saving the shipping team 10+ hrs/week, and preventing over $1,000/monthin shipping error losses</li>
+                                            <li class="list-item mb-2">Designed and developed 15+new application features using Spring Boot, React, and MongoDB</li>
+                                            <li class="list-item mb-2">Worked in an Agile environment to decrease app failures by 65% by fixing over 40 bugs, improving API request times by up to 90%</li>
+                                            <li class="list-item mb-2">Designed screens for different devices types iPhone, iPad, and Android</li>
                                     </div>
                                 </div>
                             </div>
@@ -162,32 +153,46 @@
             <h2 class="project-title mb-2">Projects</h2>
             <p class="project-subtitle mb-3">A selection of my range of work</p>
             <div class="row justify-content-around">
-                <div class="col-4 card-div">
+                <div class="col-3 card-div">
+                    <div class="card bg-dark text-white project-item">
+                        <a href="https://github.com/deepparmar02/ShareMe">
+                            <img src="https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80"
+                                class="card-img project-img" alt="..." style="height: 350px">
+                            <div class="card-img-overlay mt-4 ms-4">
+                                <h5 class="card-title">ShareMe</h5>
+                                <p class="card-text">React, Tailwind, Sanity</p>
+                                <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 card-div">
+                    <div class="card bg-dark text-white project-item">
+                        <a href="https://github.com/deepparmar02/Chess">
+                            <img src="https://uploads-ssl.webflow.com/5c8e5eae4e2db81057b08858/5c8e5eae4e2db867e6b088e1_%5B24%5Dimg_project_9.jpg"
+                                class="card-img project-img" alt="..." style="height: 350px">
+                            <div class="card-img-overlay mt-4 ms-4">
+                                <h5 class="card-title">Chess</h5>
+                                <p class="card-text">C++</p>
+                                <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 card-div">
                     <div class="card bg-dark text-white project-item">
                         <a href="https://github.com/deepparmar02/YelpCamp">
                             <img src="https://uploads-ssl.webflow.com/5c8e5eae4e2db81057b08858/5c8e5eae4e2db8bb9bb088de_%5B21%5Dimg_project_6.jpg"
-                                class="card-img project-img" alt="...">
+                                class="card-img project-img" alt="..." style="height: 350px">
                             <div class="card-img-overlay mt-4 ms-4">
                                 <h5 class="card-title">YelpCamp</h5>
-                                <p class="card-text">Full Stack Application</p>
+                                <p class="card-text">MERN Stack</p>
                                 <!-- <p class="card-text">Last updated 3 mins ago</p> -->
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="col-4 card-div">
-                    <div class="card bg-dark text-white project-item">
-                        <a href="https://github.com/deepparmar02/deepparmar02.github.io">
-                            <img src="https://uploads-ssl.webflow.com/5c8e5eae4e2db81057b08858/5c8e5eae4e2db867e6b088e1_%5B24%5Dimg_project_9.jpg"
-                                class="card-img project-img" alt="...">
-                            <div class="card-img-overlay mt-4 ms-4">
-                                <h5 class="card-title">Personal Portfolio</h5>
-                                <p class="card-text">Web Development</p>
-                                <!-- <p class="card-text">Last updated 3 mins ago</p> -->
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
